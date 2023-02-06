@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.5.8",
+	"FriendlyName": "OpenLogic",
+	"Description": "In-Editor/In-Game visual scripting tool. Create custom nodes with custom behaviors that fit your needs.",
+	"Category": "Marketplace",
+	"CreatedBy": "NegativeName",
+	"CreatedByURL": "https://twitter.com/NGTName",
+	"DocsURL": "https://drive.google.com/file/d/1Lz1YKTsUFy8fsZs5KBTer8Cs1UjRQPwC/view",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/aa465ad70c0c4fbd8a0b87a497283ae0",
+	"SupportURL": "mailto:negativenameseller@gmail.com",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "OpenLogic",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "OpenLogicEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "OpenLogicFactory",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
